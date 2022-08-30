@@ -10,7 +10,7 @@ spec:
       chart: wordpress
       sourceRef:
         kind: HelmRepository
-        name: azure-marketplace
+        name: wordpress
         namespace: flux-system
   interval: 5m
   install:
