@@ -4,4 +4,4 @@ namespace: flux-system
 resources:
   - ingress-controller.yaml
   - cert-manager.yaml
-  #- wp.yaml
+  - wp.yaml
