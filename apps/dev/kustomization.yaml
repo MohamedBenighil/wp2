@@ -3,5 +3,5 @@ kind: Kustomization
 namespace: app
 resources:
   - ../base/wp
-#patchesStrategicMerge:
-#  - wp-values.yaml
+patchesStrategicMerge:
+  - wp-values.yaml
