@@ -4,4 +4,4 @@ namespace:
 resources:
   - namespace.yaml
   - release.yaml
-  - clusterIssuer.yaml
+  #- clusterIssuer.yaml
