@@ -7,7 +7,7 @@ spec:
     server: https://acme-v02.api.letsencrypt.org/directory
     email: mohamed.benighil@cellenza.com
     privateKeySecretRef:
-      name: letsencrypt-prod
+      name: letsencrypt
     solvers:
       - http01:
           ingress:
