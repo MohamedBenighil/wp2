@@ -8,5 +8,4 @@ resources:
 spec:
   dependsOn:
     #-   name: cert-manager
-    - name: cert-manager
-      targetPath: ./infrastructure/certmanager/cert-manager
+    - name: ./infrastructure/certmanager/cert-manager 
