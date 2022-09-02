@@ -1,10 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 metadata:
-  name: clusterIssuer
+  name: cluster-issuer
   namespace: cert-manager
 resources:
   - clusterIssuer.yaml
 spec:
   dependsOn:
-    - name: certManager
+    #- name: cert-manager
+    - name: cert-manager
+      targetPath: ./infrastructure/certmanager
