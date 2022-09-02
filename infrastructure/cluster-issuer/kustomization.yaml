@@ -5,8 +5,8 @@ metadata:
   namespace: cert-manager
 resources:
   - clusterIssuer.yaml
-spec:
-  dependsOn:
-    - name: cert-manager
-  interval: 5m
-  path: "./infrastructure/certmanager/cert-manager "
+#spec:
+#  dependsOn:
+#    - name: cert-manager
+#  interval: 5m
+#  path: "./infrastructure/certmanager/cert-manager "
