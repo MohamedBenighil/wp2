@@ -7,5 +7,6 @@ resources:
   - clusterIssuer.yaml
 spec:
   dependsOn:
-    #-   name: cert-manager
-    - name: ./infrastructure/certmanager/cert-manager 
+    - name: cert-manager
+  interval: 5m
+  path: "./infrastructure/certmanager/cert-manager "
