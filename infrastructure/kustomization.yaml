@@ -4,3 +4,4 @@ resources:
   - sources
   - nginxcontroller
   - certmanager
+  - cluster-issuer
