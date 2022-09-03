@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
   - sources
   - nginxcontroller
-  - cert-manager
+  - certmanager
   - cluster-issuer
 
