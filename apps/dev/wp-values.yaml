@@ -11,7 +11,7 @@ spec:
   values:
     ingress:
       enabled: true
-      hostname: dev.benighil-mohamed.com
+      hostname: app.benighil-mohamed.com
       path: /
       annotations:
         kubernetes.io/ingress.class: nginx
